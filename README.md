@@ -1,6 +1,7 @@
 # encriptador
-Challenges Alura>/br>
-📃Resume del projecto
+Challenges Alura>
+
+📃Resumen del projecto
 Este es el primer Challenge del programa ONE - Oracle Next Education. Esta aplicación tiene la función de codificar y decodificar mensajes de texto de forma sencilla. Con el objetivo de intercambiar información con otras personas de una manera segura y divertida.
 
 🔑Llaves de encriptacion
@@ -20,4 +21,4 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 El resultado debe ser mostrado en la pantalla.
- Por ejemplo: "gato" => "gaitober" "gaitober" => "gato"
+Por ejemplo: "gato" => "gaitober" "gaitober" => "gato"
