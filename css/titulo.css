@@ -1,0 +1,52 @@
+.head{
+    background-color: blueviolet;
+    color: #FFFFFF;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.titulo {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 8px;  
+}
+
+.titulo_G4 {
+    font-size: 2em;   
+}
+
+.titulo_nomdesafio{
+    font-size: 1em;
+}
+
+.pie{
+    padding: 12px 0px;
+    font-size: 15px;
+    text-align:center;
+    color: var(--color-fuente-blanco);
+    background: blueviolet;
+}
+
+@media screen and (min-width: 768px) {
+
+    .head{
+        display:block;
+    }
+    .titulo{
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .titulo_G4 {
+        padding: 5px;
+        width:40%;
+    }
+
+    .titulo_nomdesafio{
+        width:30%;
+        padding: 15px;
+    }
+}
