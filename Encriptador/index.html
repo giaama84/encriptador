@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Challenge | Encriptador</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/bases.css" rel="stylesheet">
+        <link href="css/titulo.css" rel="stylesheet">
+        <link href="css/logo.css" rel="stylesheet">
+        <link href="css/uno.css" rel="stylesheet">
+        <link href="css/dos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="head">
+            <section class="titulo">
+                <p class="titulo_G4">ONE - G4</p>
+                <p class="titulo_nomdesafio">Challenge | Encriptador</p>
+            </section>
+        </header>
+
+        <main>
+            <section class="encriptador container">
+
+                <section class="logo container">
+                    <img src="imagenes/Logo.png" alt="Logo de alura">
+                </section>
+
+                <section class="uno container">
+                    <div class="uno__input container">
+                        <textarea class="uno__texto-encriptar" cols="10" rows="7" type="text" spellcheck="false" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                        <p class="uno__alerta"><iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon> Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="uno__botones container">
+                        <p class="uno__boton-encriptar boton">Encriptar</p>
+                        <p class="uno__boton-desencriptar boton">Desencriptar</p>
+                    </div>
+                </section>
+
+                <section class="dos container">
+                    <div class="dos__encriptado container">
+                        <textarea class="dos__encriptado-texto container" cols="10" rows="4" type="text" disabled></textarea>
+                        <div  id="dos__ocultar">
+                            <img class="dos__ocultar-munheco" src="imagenes/Munheco.png" alt="muñeco de Alura">
+                            <p class="dos__ocultar-notext">Ningún mensaje fue encontrado</p>
+                            <p class="dos__ocultar-ingres">Ingresa el texto que desees encriptar o desencriptar</p>
+                        </div>
+                        <p class="dos__boton-copiar boton">Copiar</p>      
+                    </div> 
+                </section>
+
+            </section>
+        </main>
+
+        <footer>
+            <div class="pie">
+                <p>Aurea Gisela Amacosta Velasco</p>
+                <p>2023</p>
+            </div>
+            <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+            <script src="js/encriptacion.js"></script>
+        </footer>
+    </body>
+</html>
+
