@@ -24,4 +24,4 @@ El resultado debe ser mostrado en la pantalla.
 Por ejemplo: "gato" => "gaitober" "gaitober" => "gato"
 
 link al proyecto terminado
-https://giaama84.github.io/encriptador/
+https://giaama84.github.io/encriptador/index.html
